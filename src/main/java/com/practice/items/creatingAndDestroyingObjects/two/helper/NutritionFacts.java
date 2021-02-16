@@ -1,4 +1,4 @@
-package com.practice.items.two.helper;
+package com.practice.items.creatingAndDestroyingObjects.two.helper;
 
 // Builder Pattern
 public class NutritionFacts {

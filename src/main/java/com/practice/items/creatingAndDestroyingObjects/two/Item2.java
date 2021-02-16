@@ -1,6 +1,6 @@
-package com.practice.items.two;
+package com.practice.items.creatingAndDestroyingObjects.two;
 
-import com.practice.items.two.helper.NutritionFacts;
+import com.practice.items.creatingAndDestroyingObjects.two.helper.NutritionFacts;
 
 public class Item2 {
 

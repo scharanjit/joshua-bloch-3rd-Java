@@ -1,4 +1,4 @@
-package com.practice.items.one.helper;
+package com.practice.items.creatingAndDestroyingObjects.one.helper;
 
 public class Item1Helper {
 
