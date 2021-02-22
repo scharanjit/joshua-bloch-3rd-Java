@@ -24,15 +24,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e2e10e7d-aa27-4f9e-9aa7-f41602b800f3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/items/one/Item1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/items/creatingAndDestroyingObjects/one/Item1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/items/one/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/items/creatingAndDestroyingObjects/one/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/items/one/helper/Item1Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/items/creatingAndDestroyingObjects/one/helper/Item1Helper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/items/two/Item2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/items/creatingAndDestroyingObjects/two/Item2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/items/two/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/items/creatingAndDestroyingObjects/two/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/items/two/helper/NutritionFacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/items/creatingAndDestroyingObjects/two/helper/NutritionFacts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/items/one/Item1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/items/one/helper/Item1Helper.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +51,6 @@
         <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
       </MavenGeneralSettings>
     </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="165" />
-    <option name="y" value="137" />
-    <option name="width" value="1281" />
-    <option name="height" value="732" />
   </component>
   <component name="ProjectId" id="1oZuOVc3VBmhzygBz7YhyCmRMIG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -100,7 +85,20 @@
       <recent name="com.practice.items.creatingAndDestroyingObjects.five" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Item2">
+  <component name="RunManager" selected="Application.DogName">
+    <configuration name="DogName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.items.methodsCommonToAllObjects.DogName" />
+      <module name="joshua-bloch-3rd-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.practice.items.methodsCommonToAllObjects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Item1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.practice.items.creatingAndDestroyingObjects.one.Item1" />
       <module name="joshua-bloch-3rd-Java" />
@@ -115,19 +113,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DogName" />
         <item itemvalue="Application.Item2" />
         <item itemvalue="Application.Item1" />
       </list>
@@ -148,7 +149,10 @@
       <workItem from="1568778464843" duration="2414000" />
       <workItem from="1568950310893" duration="2139000" />
       <workItem from="1569210303910" duration="2700000" />
-      <workItem from="1613506409429" duration="3830000" />
+      <workItem from="1613506409429" duration="4244000" />
+      <workItem from="1613538620086" duration="17000" />
+      <workItem from="1613938002622" duration="1996000" />
+      <workItem from="1613972810989" duration="1100000" />
     </task>
     <servers />
   </component>
@@ -165,27 +169,40 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="354" y="111" key="#Inspections" timestamp="1613511735894">
       <screen x="0" y="25" width="1440" height="809" />
     </state>
     <state x="354" y="111" key="#Inspections/0.25.1440.809@0.25.1440.809" timestamp="1613511735894" />
-    <state width="1398" height="205" key="GridCell.Tab.0.bottom" timestamp="1613509470163">
-      <screen x="0" y="25" width="1440" height="813" />
+    <state x="410" y="256" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613943071921">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="410" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1613943071921" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1613969251091">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1613969251091" />
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.25.1440.805@0.25.1440.805" timestamp="1613513473606" />
     <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.25.1440.813@0.25.1440.813" timestamp="1613509470163" />
-    <state width="1398" height="205" key="GridCell.Tab.0.center" timestamp="1613509470162">
-      <screen x="0" y="25" width="1440" height="813" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1613969251089">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1613969251089" />
+    <state width="1398" height="205" key="GridCell.Tab.0.center/0.25.1440.805@0.25.1440.805" timestamp="1613513473605" />
     <state width="1398" height="205" key="GridCell.Tab.0.center/0.25.1440.813@0.25.1440.813" timestamp="1613509470162" />
-    <state width="1398" height="205" key="GridCell.Tab.0.left" timestamp="1613509470162">
-      <screen x="0" y="25" width="1440" height="813" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1613969251088">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1613969251088" />
+    <state width="1398" height="205" key="GridCell.Tab.0.left/0.25.1440.805@0.25.1440.805" timestamp="1613513473605" />
     <state width="1398" height="205" key="GridCell.Tab.0.left/0.25.1440.813@0.25.1440.813" timestamp="1613509470162" />
-    <state width="1398" height="205" key="GridCell.Tab.0.right" timestamp="1613509470163">
-      <screen x="0" y="25" width="1440" height="813" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1613969251089">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1613969251089" />
+    <state width="1398" height="205" key="GridCell.Tab.0.right/0.25.1440.805@0.25.1440.805" timestamp="1613513473606" />
     <state width="1398" height="205" key="GridCell.Tab.0.right/0.25.1440.813@0.25.1440.813" timestamp="1613509470163" />
     <state x="208" y="25" key="SettingsEditor" timestamp="1613511754718">
       <screen x="0" y="25" width="1440" height="809" />
