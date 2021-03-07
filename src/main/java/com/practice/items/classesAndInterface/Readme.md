@@ -23,5 +23,21 @@ To make a class immutable, follow these five rules:
 
 Example :- Complex.java
 
-Immutable objects are inherently thread-safe; they require no synchronization.     
+Immutable objects are inherently thread-safe; they require no synchronization.  
+
+
+
+
+==> Composition over Inheritance
+ NO issue with inheritance of interfaces
+ But there is issue in inheritance of classes
+ 
+ Take example of HashSet and Class A extends Hashset
+ ==> @Override cause problem
+ 
+ 
+ In composition, use your method private and extend super class
+ 
+ 
+==> Prefer interfaces to abstract class
    

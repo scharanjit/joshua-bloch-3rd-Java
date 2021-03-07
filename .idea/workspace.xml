@@ -24,11 +24,15 @@
   <component name="ChangeListManager">
     <list default="true" id="e2e10e7d-aa27-4f9e-9aa7-f41602b800f3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/items/classesAndInterface/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/items/classesAndInterface/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -113,19 +117,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.DogName" />
@@ -152,7 +143,8 @@
       <workItem from="1613506409429" duration="4244000" />
       <workItem from="1613538620086" duration="17000" />
       <workItem from="1613938002622" duration="1996000" />
-      <workItem from="1613972810989" duration="1100000" />
+      <workItem from="1613972810989" duration="2384000" />
+      <workItem from="1615146248004" duration="1687000" />
     </task>
     <servers />
   </component>
