@@ -24,8 +24,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e2e10e7d-aa27-4f9e-9aa7-f41602b800f3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +89,7 @@
       <recent name="com.practice.items.creatingAndDestroyingObjects.five" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Anagrams">
+  <component name="RunManager" selected="Application.MaxValueInCollection">
     <configuration name="Anagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.practice.items.lambdasAndStreams.Anagrams" />
       <module name="joshua-bloch-3rd-Java" />
@@ -105,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DogName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.items.methodsCommonToAllObjects.DogName" />
+    <configuration name="CollectionClassifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.items.methods.CollectionClassifier" />
       <module name="joshua-bloch-3rd-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.items.methodsCommonToAllObjects.*" />
+          <option name="PATTERN" value="com.practice.items.methods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,9 +116,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Item2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.items.creatingAndDestroyingObjects.two.Item2" />
+    <configuration name="CollectionClassifierWithFix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.items.methods.CollectionClassifierWithFix" />
       <module name="joshua-bloch-3rd-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.practice.items.methods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxValueInCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.items.methods.MaxValueInCollection" />
+      <module name="joshua-bloch-3rd-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.practice.items.methods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,26 +155,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeightTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.items.enumsAndAnnotation.WeightTable" />
-      <module name="joshua-bloch-3rd-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.practice.items.enumsAndAnnotation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxValueInCollection" />
+        <item itemvalue="Application.CollectionClassifierWithFix" />
+        <item itemvalue="Application.CollectionClassifier" />
         <item itemvalue="Application.Anagrams" />
         <item itemvalue="Application.SortExample" />
-        <item itemvalue="Application.WeightTable" />
-        <item itemvalue="Application.DogName" />
-        <item itemvalue="Application.Item2" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +187,12 @@
       <workItem from="1615146248004" duration="3750000" />
       <workItem from="1615232756834" duration="2711000" />
       <workItem from="1615264887081" duration="259000" />
+      <workItem from="1615286242937" duration="1395000" />
+      <workItem from="1615440010255" duration="226000" />
+      <workItem from="1615798357262" duration="619000" />
+      <workItem from="1616393502982" duration="2537000" />
+      <workItem from="1616477219941" duration="1353000" />
+      <workItem from="1616564360721" duration="2353000" />
     </task>
     <servers />
   </component>
@@ -214,46 +224,50 @@
       <screen x="0" y="25" width="1440" height="809" />
     </state>
     <state x="408" y="168" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.25.1440.809@0.25.1440.809" timestamp="1615232805098" />
-    <state width="1398" height="255" key="GridCell.Tab.0.bottom" timestamp="1615238487856">
-      <screen x="0" y="25" width="1440" height="809" />
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1616686142396">
+      <screen x="0" y="25" width="1440" height="815" />
     </state>
     <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1613969251091" />
     <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.25.1440.805@0.25.1440.805" timestamp="1613513473606" />
     <state width="1398" height="255" key="GridCell.Tab.0.bottom/0.25.1440.809@0.25.1440.809" timestamp="1615238487856" />
     <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.25.1440.813@0.25.1440.813" timestamp="1613509470163" />
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.25.1440.815@0.25.1440.815" timestamp="1616686142396" />
     <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.25.1440.817@0.25.1440.817" timestamp="1615237087591" />
-    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.25.1440.818@0.25.1440.818" timestamp="1615152156818" />
-    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.25.1440.819@0.25.1440.819" timestamp="1615154063832" />
-    <state width="1398" height="255" key="GridCell.Tab.0.center" timestamp="1615238487855">
-      <screen x="0" y="25" width="1440" height="809" />
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.25.1440.818@0.25.1440.818" timestamp="1616566637942" />
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.25.1440.819@0.25.1440.819" timestamp="1616430106814" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1616686142393">
+      <screen x="0" y="25" width="1440" height="815" />
     </state>
     <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1613969251089" />
     <state width="1398" height="205" key="GridCell.Tab.0.center/0.25.1440.805@0.25.1440.805" timestamp="1613513473605" />
     <state width="1398" height="255" key="GridCell.Tab.0.center/0.25.1440.809@0.25.1440.809" timestamp="1615238487855" />
     <state width="1398" height="205" key="GridCell.Tab.0.center/0.25.1440.813@0.25.1440.813" timestamp="1613509470162" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center/0.25.1440.815@0.25.1440.815" timestamp="1616686142393" />
     <state width="1398" height="203" key="GridCell.Tab.0.center/0.25.1440.817@0.25.1440.817" timestamp="1615237087590" />
-    <state width="1398" height="207" key="GridCell.Tab.0.center/0.25.1440.818@0.25.1440.818" timestamp="1615152156817" />
-    <state width="1398" height="207" key="GridCell.Tab.0.center/0.25.1440.819@0.25.1440.819" timestamp="1615154063830" />
-    <state width="1398" height="255" key="GridCell.Tab.0.left" timestamp="1615238487854">
-      <screen x="0" y="25" width="1440" height="809" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center/0.25.1440.818@0.25.1440.818" timestamp="1616566637941" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center/0.25.1440.819@0.25.1440.819" timestamp="1616430106813" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1616686142392">
+      <screen x="0" y="25" width="1440" height="815" />
     </state>
     <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1613969251088" />
     <state width="1398" height="205" key="GridCell.Tab.0.left/0.25.1440.805@0.25.1440.805" timestamp="1613513473605" />
     <state width="1398" height="255" key="GridCell.Tab.0.left/0.25.1440.809@0.25.1440.809" timestamp="1615238487854" />
     <state width="1398" height="205" key="GridCell.Tab.0.left/0.25.1440.813@0.25.1440.813" timestamp="1613509470162" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left/0.25.1440.815@0.25.1440.815" timestamp="1616686142392" />
     <state width="1398" height="203" key="GridCell.Tab.0.left/0.25.1440.817@0.25.1440.817" timestamp="1615237087589" />
-    <state width="1398" height="207" key="GridCell.Tab.0.left/0.25.1440.818@0.25.1440.818" timestamp="1615152156817" />
-    <state width="1398" height="207" key="GridCell.Tab.0.left/0.25.1440.819@0.25.1440.819" timestamp="1615154063829" />
-    <state width="1398" height="255" key="GridCell.Tab.0.right" timestamp="1615238487855">
-      <screen x="0" y="25" width="1440" height="809" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left/0.25.1440.818@0.25.1440.818" timestamp="1616566637940" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left/0.25.1440.819@0.25.1440.819" timestamp="1616430106812" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1616686142395">
+      <screen x="0" y="25" width="1440" height="815" />
     </state>
     <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1613969251089" />
     <state width="1398" height="205" key="GridCell.Tab.0.right/0.25.1440.805@0.25.1440.805" timestamp="1613513473606" />
     <state width="1398" height="255" key="GridCell.Tab.0.right/0.25.1440.809@0.25.1440.809" timestamp="1615238487855" />
     <state width="1398" height="205" key="GridCell.Tab.0.right/0.25.1440.813@0.25.1440.813" timestamp="1613509470163" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right/0.25.1440.815@0.25.1440.815" timestamp="1616686142395" />
     <state width="1398" height="203" key="GridCell.Tab.0.right/0.25.1440.817@0.25.1440.817" timestamp="1615237087590" />
-    <state width="1398" height="207" key="GridCell.Tab.0.right/0.25.1440.818@0.25.1440.818" timestamp="1615152156817" />
-    <state width="1398" height="207" key="GridCell.Tab.0.right/0.25.1440.819@0.25.1440.819" timestamp="1615154063831" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right/0.25.1440.818@0.25.1440.818" timestamp="1616566637941" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right/0.25.1440.819@0.25.1440.819" timestamp="1616430106814" />
     <state width="1398" height="255" key="GridCell.Tab.1.bottom" timestamp="1615238487858">
       <screen x="0" y="25" width="1440" height="809" />
     </state>
@@ -282,6 +296,10 @@
       <screen x="0" y="25" width="1440" height="809" />
     </state>
     <state x="208" y="25" key="SettingsEditor/0.25.1440.809@0.25.1440.809" timestamp="1613511754718" />
+    <state x="421" y="183" width="627" height="490" key="find.popup" timestamp="1615959986605">
+      <screen x="0" y="25" width="1440" height="821" />
+    </state>
+    <state x="421" y="183" width="627" height="490" key="find.popup/0.25.1440.821@0.25.1440.821" timestamp="1615959986605" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
