@@ -24,6 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e2e10e7d-aa27-4f9e-9aa7-f41602b800f3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +50,6 @@
     <option name="projectConfigVersion" value="2" />
   </component>
   <component name="JupyterTrust" id="29f72e3a-05f1-43f5-9f75-7a73753bd286" />
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1oZuOVc3VBmhzygBz7YhyCmRMIG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -85,24 +79,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/practice/items/generalProgramming" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.practice.items.creatingAndDestroyingObjects.five" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxValueInCollection">
-    <configuration name="Anagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.items.lambdasAndStreams.Anagrams" />
-      <module name="joshua-bloch-3rd-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.practice.items.lambdasAndStreams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.CountDownLatchExample">
     <configuration name="CollectionClassifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.practice.items.methods.CollectionClassifier" />
       <module name="joshua-bloch-3rd-Java" />
@@ -116,12 +100,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionClassifierWithFix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.items.methods.CollectionClassifierWithFix" />
+    <configuration name="CountDownLatchExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.items.concurrency.CountDownLatchExample" />
       <module name="joshua-bloch-3rd-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.items.methods.*" />
+          <option name="PATTERN" value="com.practice.items.concurrency.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Four" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.items.generalProgramming.Four" />
+      <module name="joshua-bloch-3rd-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.practice.items.generalProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.items.lambdasAndStreams.SortExample" />
+    <configuration name="ReflectiveInstance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.items.generalProgramming.ReflectiveInstance" />
       <module name="joshua-bloch-3rd-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.items.lambdasAndStreams.*" />
+          <option name="PATTERN" value="com.practice.items.generalProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,13 +152,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountDownLatchExample" />
+        <item itemvalue="Application.ReflectiveInstance" />
         <item itemvalue="Application.MaxValueInCollection" />
-        <item itemvalue="Application.CollectionClassifierWithFix" />
+        <item itemvalue="Application.Four" />
         <item itemvalue="Application.CollectionClassifier" />
-        <item itemvalue="Application.Anagrams" />
-        <item itemvalue="Application.SortExample" />
       </list>
     </recent_temporary>
   </component>
@@ -193,6 +201,16 @@
       <workItem from="1616393502982" duration="2537000" />
       <workItem from="1616477219941" duration="1353000" />
       <workItem from="1616564360721" duration="2353000" />
+      <workItem from="1616735254548" duration="5800000" />
+      <workItem from="1617090274161" duration="592000" />
+      <workItem from="1617102168460" duration="199000" />
+      <workItem from="1617252422903" duration="582000" />
+      <workItem from="1617692900902" duration="2287000" />
+      <workItem from="1619415046719" duration="3678000" />
+      <workItem from="1619583386275" duration="693000" />
+      <workItem from="1619756577959" duration="3807000" />
+      <workItem from="1620200780014" duration="1355000" />
+      <workItem from="1620595482220" duration="714000" />
     </task>
     <servers />
   </component>
@@ -224,50 +242,62 @@
       <screen x="0" y="25" width="1440" height="809" />
     </state>
     <state x="408" y="168" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.25.1440.809@0.25.1440.809" timestamp="1615232805098" />
-    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1616686142396">
-      <screen x="0" y="25" width="1440" height="815" />
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1620055361421">
+      <screen x="0" y="25" width="1440" height="821" />
     </state>
     <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1613969251091" />
     <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.25.1440.805@0.25.1440.805" timestamp="1613513473606" />
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.25.1440.807@0.25.1440.807" timestamp="1617090243308" />
     <state width="1398" height="255" key="GridCell.Tab.0.bottom/0.25.1440.809@0.25.1440.809" timestamp="1615238487856" />
-    <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.25.1440.813@0.25.1440.813" timestamp="1613509470163" />
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.25.1440.813@0.25.1440.813" timestamp="1616756029793" />
     <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.25.1440.815@0.25.1440.815" timestamp="1616686142396" />
     <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.25.1440.817@0.25.1440.817" timestamp="1615237087591" />
     <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.25.1440.818@0.25.1440.818" timestamp="1616566637942" />
     <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.25.1440.819@0.25.1440.819" timestamp="1616430106814" />
-    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1616686142393">
-      <screen x="0" y="25" width="1440" height="815" />
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.25.1440.820@0.25.1440.820" timestamp="1620024124913" />
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.25.1440.821@0.25.1440.821" timestamp="1620055361421" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1620055361421">
+      <screen x="0" y="25" width="1440" height="821" />
     </state>
     <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1613969251089" />
     <state width="1398" height="205" key="GridCell.Tab.0.center/0.25.1440.805@0.25.1440.805" timestamp="1613513473605" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center/0.25.1440.807@0.25.1440.807" timestamp="1617090243308" />
     <state width="1398" height="255" key="GridCell.Tab.0.center/0.25.1440.809@0.25.1440.809" timestamp="1615238487855" />
-    <state width="1398" height="205" key="GridCell.Tab.0.center/0.25.1440.813@0.25.1440.813" timestamp="1613509470162" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center/0.25.1440.813@0.25.1440.813" timestamp="1616756029792" />
     <state width="1398" height="203" key="GridCell.Tab.0.center/0.25.1440.815@0.25.1440.815" timestamp="1616686142393" />
     <state width="1398" height="203" key="GridCell.Tab.0.center/0.25.1440.817@0.25.1440.817" timestamp="1615237087590" />
     <state width="1398" height="203" key="GridCell.Tab.0.center/0.25.1440.818@0.25.1440.818" timestamp="1616566637941" />
     <state width="1398" height="203" key="GridCell.Tab.0.center/0.25.1440.819@0.25.1440.819" timestamp="1616430106813" />
-    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1616686142392">
-      <screen x="0" y="25" width="1440" height="815" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center/0.25.1440.820@0.25.1440.820" timestamp="1620024124912" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center/0.25.1440.821@0.25.1440.821" timestamp="1620055361421" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1620055361420">
+      <screen x="0" y="25" width="1440" height="821" />
     </state>
     <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1613969251088" />
     <state width="1398" height="205" key="GridCell.Tab.0.left/0.25.1440.805@0.25.1440.805" timestamp="1613513473605" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left/0.25.1440.807@0.25.1440.807" timestamp="1617090243308" />
     <state width="1398" height="255" key="GridCell.Tab.0.left/0.25.1440.809@0.25.1440.809" timestamp="1615238487854" />
-    <state width="1398" height="205" key="GridCell.Tab.0.left/0.25.1440.813@0.25.1440.813" timestamp="1613509470162" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left/0.25.1440.813@0.25.1440.813" timestamp="1616756029791" />
     <state width="1398" height="203" key="GridCell.Tab.0.left/0.25.1440.815@0.25.1440.815" timestamp="1616686142392" />
     <state width="1398" height="203" key="GridCell.Tab.0.left/0.25.1440.817@0.25.1440.817" timestamp="1615237087589" />
     <state width="1398" height="203" key="GridCell.Tab.0.left/0.25.1440.818@0.25.1440.818" timestamp="1616566637940" />
     <state width="1398" height="203" key="GridCell.Tab.0.left/0.25.1440.819@0.25.1440.819" timestamp="1616430106812" />
-    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1616686142395">
-      <screen x="0" y="25" width="1440" height="815" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left/0.25.1440.820@0.25.1440.820" timestamp="1620024124912" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left/0.25.1440.821@0.25.1440.821" timestamp="1620055361420" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1620055361421">
+      <screen x="0" y="25" width="1440" height="821" />
     </state>
     <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1613969251089" />
     <state width="1398" height="205" key="GridCell.Tab.0.right/0.25.1440.805@0.25.1440.805" timestamp="1613513473606" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right/0.25.1440.807@0.25.1440.807" timestamp="1617090243308" />
     <state width="1398" height="255" key="GridCell.Tab.0.right/0.25.1440.809@0.25.1440.809" timestamp="1615238487855" />
-    <state width="1398" height="205" key="GridCell.Tab.0.right/0.25.1440.813@0.25.1440.813" timestamp="1613509470163" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right/0.25.1440.813@0.25.1440.813" timestamp="1616756029792" />
     <state width="1398" height="203" key="GridCell.Tab.0.right/0.25.1440.815@0.25.1440.815" timestamp="1616686142395" />
     <state width="1398" height="203" key="GridCell.Tab.0.right/0.25.1440.817@0.25.1440.817" timestamp="1615237087590" />
     <state width="1398" height="203" key="GridCell.Tab.0.right/0.25.1440.818@0.25.1440.818" timestamp="1616566637941" />
     <state width="1398" height="203" key="GridCell.Tab.0.right/0.25.1440.819@0.25.1440.819" timestamp="1616430106814" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right/0.25.1440.820@0.25.1440.820" timestamp="1620024124913" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right/0.25.1440.821@0.25.1440.821" timestamp="1620055361421" />
     <state width="1398" height="255" key="GridCell.Tab.1.bottom" timestamp="1615238487858">
       <screen x="0" y="25" width="1440" height="809" />
     </state>
